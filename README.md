@@ -5,7 +5,9 @@ Do you need the latest earthquake from BMKG | Indonesia Meteorological, Climatol
 This package will scrape the latest earthquake data from [BMKG](https://www.bmkg.go.id/).
 
 1. Install package from https://pypi.org/project/indonesia-earthquake/
-2. Run your main.py with this code
+2. Install module from https://pypi.org/project/requests/
+3. Install module from https://pypi.org/project/beautifulsoup4/
+4. Run your main.py with this code
 
 ```
 import last_earthquake
