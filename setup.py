@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="indonesia-earthquake",
-    version="0.0.2",
+    version="0.0.3",
     author="Arsenius Anom Permadi",
     author_email="anom@broanom.com",
     description="the latest earthquake from BMKG | Indonesia",
