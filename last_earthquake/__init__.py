@@ -30,7 +30,8 @@ def data_extraction():
         i = 0
         magnitude = None
         depth = None
-        location = None
+        lat = None
+        long = None
         description = None
         impact = None
 
@@ -75,3 +76,7 @@ def show_data(result):
     print(f"Location: Lat = {result['location']['lat']}, Lon = {result['location']['lon']}")
     print(f"Description {result['description']}")
     print(f"Impact {result['impact']}")
+
+if __name__ == '__main__':
+    result = data_extraction()
+    show_data(result)
